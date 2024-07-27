@@ -1,0 +1,435 @@
+button:focus:not(.fous-visible){
+    outline: 0;
+    box-shadow: none;
+}
+
+/* Form Container */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-field label {
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  color: purple;
+}
+
+.form-h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+.row {
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: green;
+  }
+
+  h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+  }
+}
+
+.container-m {
+  text-align: center;
+}
+
+
+.banner{
+    background-image: url(../image/board_meetings-copy.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+}
+.banner-opa{
+    background-color: rgba(75, 4, 75, 0.701);
+}
+.carousel-item active{
+    margin-top: 15px;
+}
+h2{
+    font-size: 50px;
+}
+.h-middle{
+    font-size: 40px;
+}
+.section-2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.twrite{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.img1{
+    width: 240px;
+    height: 300px;
+    color: rgba(70, 3, 70, 0.93);
+    margin-right: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+}
+.img2{
+    width: 240px;
+    height: 300px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgba(70, 3, 70, 0.93);
+    font-family: "Ubuntu", sans-serif;
+}
+.img3{
+    width: 240px;
+    height: 300px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgba(70, 3, 70, 0.93);
+    font-family: "Ubuntu", sans-serif;
+
+}
+.container2{
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    a {
+      text-decoration: none;
+      margin-left: 15px;
+    }
+
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+
+}
+
+
+
+/**** Upated ********/
+
+.bg{
+    background-image: url(../image/board_meetings.jpg);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.bg_apply{
+    background-image: url(../image/applynow2.jpg);
+    background-color: purple;
+    background-blend-mode: overlay;
+    height: 600px;
+    width: 100%;
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.bg_grant{
+    background-image: url(../image/grantwinner2.jpg);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.bg_tax{
+    background-image: url(../image/COVID-19-RELIEF-GRANT2.png);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+/* APPLY NOW */
+
+.banner_apply{
+    background-image: url(../image/applynow.jpg);
+    height: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+}
+
+
+
+
+/* Grant Winners*/
+
+.banner_grant{
+        background-image: url(../image/grantwinner.jpeg);
+        height: auto;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 800;
+}
+
+.img1-grant{
+    align-items: center;
+    width: 240px;
+    height: 300px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.cont-grant{
+  text-align: center;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: 40px;
+  font-family: "Ubuntu", sans-serif;
+  color: purple;
+}
+.table-text{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+/* Delivery Tax Fees */
+
+.cash-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.banner_deliver{
+    background-image: url(../image/COVID-19-RELIEF-GRANT.png);
+        height: 80vh;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 800;
+
+}
+
+
+/*  FAQ  */
+
+
+.faq-con{
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+.faq-context{
+    font-size: 20px;
+}
+
+/* APPLY NOW */
+
+.apply-con{
+    margin-top: 50PX;
+}
+
+
+
+/* Medi Queries */
+@media only screen and (max-width : 992px){
+    h2{
+        font-size: 30px;
+    }
+    .h-middle{
+        font-size: 25px;
+    }
+
+    .banner_apply{
+        height: auto;
+    }
+
+}
+@media only screen and (max-width : 768px){
+    h2{
+        font-size: 30px;
+    }
+    .h-middle{
+        font-size: 25px;
+    }
+    .banner{
+        height: auto;
+    }
+    .col-6{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        color: green;
+
+    }
+    .col-62{
+        font-size: 15px;
+        color: black;
+    }
+}
+@media only screen and (max-width : 576px){
+    h2{
+        font-size: 30px;
+    }
+    .h-middle{
+        font-size: 25px;
+    }
+    .banner{
+        height: auto;
+    }
+    .col-6{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        color: green;
+
+    }
+    .col-62{
+        font-size: 15px;
+        color: black;
+    }
+    .img1{
+        width: 240px;
+        height: 300px;
+        margin-left: 70px;
+        margin-right: 15px;
+    }
+    .img2{
+        width: 240px;
+        height: 300px;
+        margin-right: 15px;
+        margin-left: 70px;
+    }
+    .img3{
+        width: 240px;
+        height: 300px;
+        margin-left: 70px;
+
+    }
+}
+@media only screen and (max-width : 414px){
+    h2{
+        font-size: 30px;
+    }
+    .h-middle{
+        font-size: 25px;
+    }
+    .banner{
+        height: auto;
+    }
+    .img-fluid {
+        width: 100%;
+    height: 250px;
+    }
+    .col-6{
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        color: green;
+
+    }
+    .col-62{
+        font-size: 15px;
+        color: black;
+    }
+    .img1{
+        width: 240px;
+        height: 300px;
+        margin-left: 55px;
+        margin-right: 15px;
+    }
+    .img2{
+        width: 240px;
+        height: 300px;
+        margin-right: 15px;
+        margin-left: 55px;
+    }
+    .img3{
+        width: 240px;
+        height: 300px;
+        margin-left: 55px;
+
+    }
+    .banner_apply{
+        height: auto;
+    }
+}
+    @media only screen and (max-width :  460px){
+        h2{
+            font-size: 25px;
+        }
+        .h-middle{
+            font-size: 19px;
+        }
+        .banner{
+            height: auto;
+        }
+        .img-fluid {
+            width: 100%;
+        height: 250px;
+        }
+        .col-6{
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            color: green;
+
+        }
+        .col-62{
+            font-size: 15px;
+            color: black;
+        }
+        .img1{
+            width: 240px;
+            height: 300px;
+            margin-left: 50px;
+            margin-right: 15px;
+        }
+        .img2{
+            width: 240px;
+            height: 300px;
+            margin-right: 15px;
+            margin-left: 50px;
+        }
+        .img3{
+            width: 240px;
+            height: 300px;
+            margin-left: 50px;
+
+        }
+        .banner_apply{
+            height: auto;
+        }
+        .banner_grant{
+            font-size: 20px;
+        }
+        .cont-grant{
+            align-items: center;
+            margin-left: 40px;
+        }
+
+}
+
+/* End of Media Queries */
+
+
+/* Step2 */
+
+.step2 {
+  position: sticky;
+
+}
+
+.button-container {
+  display: flex;
+}
+
+.button-container button {
+  margin-right: 30px;
+  min-width: 150px;
+}

